@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="nav wrap">
+            <a class="logo" href="#home">&lt;JT<span>/&gt;</span></a>
+            
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            
+            <div class="theme-switch">
+                <input type="checkbox" id="theme-toggle">
+                <label for="theme-toggle" aria-label="Switch between light and dark mode">
+                    <span class="sun">☼</span>
+                    <span class="moon">☾</span>
+                    <i></i>
+                </label>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="home" class="hero wrap">
+            <div>
+                <p class="eyebrow">Aspiring front-end / back-end developer</p>
+                <h1>Building useful things for the web.</h1>
+                <p class="lead">
+                    I'm Josh Christian Tayo, a student developer focused on responsive
+                    interfaces, practical web applications, and database-driven systems.
+                </p>
+                
+                <div class="actions">
+                    <a class="button" href="#projects">Explore my projects</a>
+                    <a class="text-link" href="https://github.com/" target="_blank" rel="noopener">
+                        View GitHub ↗
+                    </a>
+                </div>
+                
+                <div class="proof">
+                    <b>HTML &amp; CSS</b>
+                    <b>JavaScript</b>
+                    <b>SQL databases</b>
+                </div>
+            </div>
+            
+            <div class="code-window">
+                <div class="window-bar">
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <small>portfolio.js</small>
+                </div>
+                
+                <pre><code><em>const</em> developer = {
+                    name: <b>"Josh Tayo"</b>,
+                    focus: <b>"Full-Stack Web"</b>,
+                    learning: [
+                    <b>"Frontend"</b>, <b>"Backend"</b>,
+                    <b>"Databases"</b>
+                    ],
+                    <em>build</em>() {
+                        <em>return</em> <b>"Keep improving"</b>;
+                    }
+                };</code></pre>
+            </div>
+        </section>
+        
+        <section id="about" class="section pale">
+            <div class="wrap two-col">
+                <div>
+                    <p class="eyebrow">01 / About me</p>
+                    <h2>A developer who enjoys understanding how things work.</h2>
+                </div>
+                
+                <div class="muted">
+                    <p>
+                        I am building my foundation in web development through academic
+                        projects, independent practice, and hands-on problem solving. I
+                        enjoy both the visible experience of a website and the logic behind it.
+                    </p>
+                    <p>
+                        My goal is to become a dependable developer who writes clean code,
+                        learns continuously, and creates applications that are useful to real people.
+                    </p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="projects" class="section wrap">
+            <div class="heading">
+                <div>
+                    <p class="eyebrow">02 / Selected work</p>
+                    <h2>Projects that show how I think.</h2>
+                </div>
+                <p class="muted">Explain the problem, process, technology, and result behind every project.</p>
+            </div>
+            
+            <div class="projects">
+                <article class="project featured">
+                    <div class="visual database">
+                        <strong>DATABASE<br>MANAGEMENT</strong>
+                        <small>CRUD / SQL / PHP</small>
+                    </div>
+                    <div class="project-body">
+                        <p class="type">Featured · Full stack</p>
+                        <h3>Inventory Management System</h3>
+                        <p class="muted">
+                            A system for organizing products, tracking stock levels, and managing
+                            records through a database-driven interface.
+                        </p>
+                        <div class="tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>PHP</span>
+                            <span>MySQL</span>
+                        </div>
+                        <a class="text-link" href="#contact">Case study ↗</a>
+                        <a class="text-link" href="https://github.com/" target="_blank" rel="noopener">
+                            GitHub ↗
+                        </a>
+                    </div>
+                </article>
+                
+                <article class="project">
+                    <div class="visual frontend">
+                        <strong>RESPONSIVE<br>WEB DESIGN</strong>
+                        <small>LAYOUT / ACCESSIBILITY</small>
+                    </div>
+                    <div class="project-body">
+                        <p class="type">Front-end project</p>
+                        <h3>Personal Portfolio Website</h3>
+                        <p class="muted">
+                            A responsive portfolio focused on clear information hierarchy,
+                            mobile usability, and professional presentation.
+                        </p>
+                        <div class="tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>Responsive</span>
+                        </div>
+                        <a class="text-link" href="#contact">Case study ↗</a>
+                    </div>
+                </article>
+                
+                <article class="project">
+                    <div class="visual app">
+                        <strong>INTERACTIVE<br>APPLICATION</strong>
+                        <small>LOGIC / USER INPUT</small>
+                    </div>
+                    <div class="project-body">
+                        <p class="type">JavaScript project</p>
+                        <h3>Task or Expense Tracker</h3>
+                        <p class="muted">
+                            An interactive application that accepts input, updates the interface,
+                            and organizes information usefully.
+                        </p>
+                        <div class="tags">
+                            <span>JavaScript</span>
+                            <span>DOM</span>
+                            <span>UI/UX</span>
+                        </div>
+                        <a class="text-link" href="#contact">Case study ↗</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+        
+        <section id="skills" class="section dark">
+            <div class="wrap two-col">
+                <div>
+                    <p class="eyebrow">03 / Technical toolkit</p>
+                    <h2>Tools I use to turn ideas into working products.</h2>
+                </div>
+                
+                <div class="skill-list">
+                    <div>
+                        <h3>Front end</h3>
+                        <p>HTML5 · CSS3 · Responsive Design · JavaScript · Accessibility</p>
+                    </div>
+                    <div>
+                        <h3>Back end &amp; data</h3>
+                        <p>PHP · Node.js · REST APIs · MySQL · SQL · CRUD Operations</p>
+                    </div>
+                    <div>
+                        <h3>Professional practice</h3>
+                        <p>Git &amp; GitHub · Debugging · Documentation · Teamwork</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="contact" class="section contact wrap">
+            <p class="eyebrow">04 / Contact</p>
+            <h2>Have a project or opportunity?</h2>
+            <p class="muted">
+                I'm open to learning opportunities, internships, collaborations,
+                and conversations about web development.
+            </p>
+            <a class="button" href="mailto:your.email@example.com">
+                your.email@example.com ↗
+            </a>
+        </section>
+    </main>
+    
+    <footer>© 2026 Josh Christian Tayo · Built with HTML &amp; CSS</footer>
+</body>
+</html>
